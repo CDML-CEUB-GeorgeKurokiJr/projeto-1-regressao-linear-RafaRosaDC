@@ -109,18 +109,3 @@ O script exibe um painel com 3 gráficos para atestar a qualidade do treinamento
 * Real vs Predito: Um gráfico de dispersão com uma linha de predição perfeita ideal ($y = x$).
 
 * Distribuição dos Resíduos: Histograma que avalia a normalidade dos erros cometidos pelo modelo.
-
-## Como Executar
-
-1. Clone este repositório.
-
-2. Certifique-se de ter o arquivo `hour.csv` no mesmo diretório do script principal.
-
-3. Instale as dependências executando:
-
-`pip install pandas numpy torch matplotlib seaborn scikit-learn`
-
-4. Execute o script Python principal:
-
-`python Bike_Sharing_MLP_Report.py`
-
